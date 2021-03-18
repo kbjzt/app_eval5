@@ -32,9 +32,9 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-<?php require_once('partials/header.inc'); ?>
-<div class="container">
-<div class="card offset-4 col-4 mt-5">
+<?php require_once('../partials/header.inc'); ?>
+<div class="container mt-5">
+<div class="card offset-4 col-4" style="margin-bottom: 327px;">
   <?=$error;?>
   <div class="card-header text-center">
     Formulaire d'inscription

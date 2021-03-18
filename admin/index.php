@@ -33,8 +33,8 @@ require_once('../partials/header.inc');
 
 ?>
 
-<div class="container">
-    <div class="card offset-4 col-4 mt-5" style="margin-bottom: 327px;">
+<div class="container mt-5">
+    <div class="card offset-4 col-4 " style="margin-bottom: 327px;">
     <?= $error; ?>
         <div class="card-header text-center">
             Formulaire de connexion
@@ -44,7 +44,7 @@ require_once('../partials/header.inc');
                 <div class="mb-2">
                     <label for="login" class="form-label">Login*</label>
                     <input type="text" class="form-control" id="login" name="login" placeholder="Entrez votre login">
-
+                </div>
                     <div class="mb-2">
                         <label for="pass" class="form-label">Mot de passe*</label>
                         <input type="password" class="form-control" id="pass" name="pass" placeholder="Entrez votre mot de passe">
