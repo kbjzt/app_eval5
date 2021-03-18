@@ -31,7 +31,7 @@ function trH($h){
         <div class="row row-cols-1 row-cols-md-2  mt-1">
             <?php while($rows = mysqli_fetch_assoc($result)){ ?>
             <div class="col">
-              <div class="card">
+              <div class="card"  style="background-color: #f1f1f1;">
                 <img src="assets/images/<?=$rows['image'];?>" class="card-img-top" alt="..." height="300">
                 <div class="card-body">
                   <h5 class="card-title text-center"><?=$rows['titre'];?></h5>
