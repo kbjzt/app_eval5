@@ -143,7 +143,8 @@
                     <?php } ?>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <?php if(isset($_SESSION['ok']) && $_SESSION['ok']['role'] == 1){ ?>
-                        <li><a class="dropdown-item" href="inscription.php">Inscription</a></li>
+                        <li><a class="dropdown-item" href="liste.php">Gestion des articles</a></li>
+                        <li><a class="dropdown-item" href="utilisateurs.php">Gestion des utilisateurs</a></li>
                         <?php } ?>
                         <li><a class="dropdown-item" href="logout.php">Deconnexion</a></li>
                     </ul>

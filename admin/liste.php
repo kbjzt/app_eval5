@@ -26,7 +26,7 @@ $result = mysqli_query($conn, $sql);
 <?php require_once('../partials/header.inc'); ?>
 
 <div class="container">
-    <h1 class="text-center mt-5">Administration</h1>
+    <h3 class="text-center mt-5">Liste des articles</h3>
     <div class="row">
     <form action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
     <div class="input-group justify-content-end col-6">

@@ -1,4 +1,5 @@
 <?php
+require_once('security.inc');
 
 session_start();
 if(isset($_SESSION['ok']) && $_SESSION['ok']['role'] != 1){
@@ -26,7 +27,7 @@ if(isset($_POST['submit'])){
 
         if($result){
 
-            header('location:index.php');
+            header('location:utilisateurs.php');
         }
     }
 }
@@ -55,7 +56,7 @@ if(isset($_POST['submit'])){
         <label class="form-check-label" for="role">Administrateur</label>
     </div>
     
-    <button type="submit" class="btn btn-primary col-12" name="submit">Soumettre</button>
+    <button type="submit" class="btn btn-primary col-12" name="submit">Ajouter</button>
     </form>
   </div>
 </div>
